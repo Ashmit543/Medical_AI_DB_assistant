@@ -13,6 +13,7 @@ dist
 .venv
 frontend/.npm
 backend/.python-version
+backend/.env
 backend/.ruff_cache
 data/uploads
 
