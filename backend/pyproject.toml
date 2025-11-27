@@ -13,14 +13,13 @@ dependencies = [
     "supabase==2.6.0",
     "langchain==0.2.12",
     "langchain-openai==0.1.19",
-    "langgraph==0.1.20",
-    "docling==0.1.9",
+    "langgraph==0.1.19",
     "sentence-transformers==3.1.1",
     "psycopg[binary,pool]==3.2.1",
-    "tenacity==9.0.0",
+    "tenacity==8.3.0",
     "orjson==3.10.7",
     "redis==5.1.1",
-    "numpy==2.1.2",
+    "numpy==1.26.4",
     "pillow==11.0.0"
 ]
 

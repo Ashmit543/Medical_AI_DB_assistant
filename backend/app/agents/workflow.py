@@ -6,7 +6,7 @@ from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
 from loguru import logger
 
-from app.services.docling_service import parse_document
+# from app.services.docling_service import parse_document  # TODO: Install docling for PDF parsing
 from app.services.embedding_service import embed_texts
 from app.services.vector_store import upsert_vectors, similarity_search
 from app.services.llm_service import mistral_complete, guardrail_validate

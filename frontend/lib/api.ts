@@ -31,3 +31,16 @@ export async function uploadDocument(formData: FormData) {
   return res.json();
 }
 
+export async function uploadZipFolder(formData: FormData) {
+  const res = await fetch(`${API_BASE}/api/v1/ingest/upload-zip`, {
+    method: "POST",
+    body: formData
+  });
+
+  if (!res.ok) {
+    throw new Error(await res.text());
+  }
+
+  return res.json();
+}
+
